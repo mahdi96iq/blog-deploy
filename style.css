@@ -1,0 +1,244 @@
+*{
+    padding:0;
+    margin:0;
+ 
+}
+nav{
+    border-bottom:1px solid rgb(255, 255, 255,0.2);
+    background-color:#565c68;
+    position:fixed;
+    width: 100%;
+    box-shadow: 1px 1px 11px 1px rgba(0, 0, 0, 0.5);
+    z-index: 5;   
+}
+
+
+
+.navbar{
+    width:80%;    
+    padding:10px;
+
+    margin: 0 auto;
+    z-index: 1;   
+}
+/* #check{
+    z-index: 6;
+}     */
+
+.menu-items{
+    margin-right:20px;
+
+}
+.m-item{  
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+    /* display: flex;
+    justify-content: center;
+    align-items:center; */
+       
+}
+.item-1{
+    text-decoration: none;
+    color:#fff;
+    font-family:"Raleway", sans-serif;
+    font-weight:600;
+    font-size: 18px;
+    padding:20px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+        
+}
+.item-1:hover{
+    
+    color:#565c68;
+    background-color:#fff;
+}
+
+.logo{
+    color:#fff;
+    font-family:"Raleway", sans-serif;
+    font-weight:500;
+    font-size:44px; 
+}
+.hero-background{
+    
+    width: 100%;
+    height: 700px;
+    max-height: 700px;
+    background-image: url("44.jpg");
+    background-color:rgb(66, 139, 161,0.42);
+    background-size:cover;
+    background-position: center;    
+    position: absolute;
+    top: -10px;
+    z-index:-1; 
+    background-blend-mode:overlay;
+    box-shadow: 1px 1px 11px;    
+}
+.hero-content{
+    position: relative;
+    top: 40%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.hero-about,.hero-about1,.btn-explor{   
+    color:#fff;
+    font-family:"Raleway",sans-serif;
+    text-transform: uppercase;
+    font-weight:600;
+    font-size:30px;
+    background-color:rgb(66, 139, 161,0.42);
+    /* border:2px dotted #fff; */
+    white-space: 15px;
+    display:inline-block;
+    padding: 15px;
+    margin: 10px;        
+}
+.hero-about1{
+    word-spacing: 15px;
+    letter-spacing: 4.3px;
+    font-size: 25px;
+}
+.btn-explor{
+
+    background-color: rgba(44, 46, 66, 0.561);
+    stroke: none;
+    border: 2px solid  #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 25px;
+    padding: 15px;
+    margin-top: 4rem;
+    transition: all 0.2s;
+    
+}
+.btn-explor:hover{
+    background-color: #fff;
+    color: rgba(63, 78, 104, 0.924);
+}
+
+
+.blo{   
+    padding:50px;
+    position: relative;
+    top: 750px;
+    max-width: 1200px;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+    align-items:center;
+    gap: 30px;
+    margin: 0 auto;
+           
+}
+.blogs-backgrownd{
+    width:100%;
+    height:800vmax;
+    position: absolute;
+    background-color: #565c68;
+    z-index: -55;
+    
+}
+.post{
+    max-width: 530px;
+    height: 600px;
+    max-height: 640px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0 auto;
+
+}
+.post-img > img{ 
+    width: 510px;
+    border-radius: 20px;
+    max-height: 300px;
+   
+}
+.post-title{
+    margin: 10px;
+    font-size:23px;
+    font-weight:400;
+    padding: 10px;
+    border-bottom: 1px solid rgb(54, 54, 54,0.1);
+}
+.summry{
+    font-size: 17px;
+    padding:10px;
+}
+.read-more{
+    position: relative;    
+    text-decoration: none;
+    font-size: 20px;
+    font-weight:700;   
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid rgb(192, 192, 192);
+    color: rgb(54, 54, 54);
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 5px;
+    transition:all 0.2s ease;
+    
+}
+.read-more:hover{
+    color:#fff;
+    background-color:#565c68;
+    text-decoration: none;
+}
+
+.content-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid black; */
+}
+.content{
+
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  top: 110px;
+
+}
+
+.content-background{
+
+    /* background-image: url("money.jpg"); */
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    border-radius: 10px;
+    
+}
+
+.post-page-title{
+    margin-top: 50px;
+    font-weight: 700;
+    padding: 20px;
+
+}
+.post-text-e{
+    margin-top: 50px;
+    font-size:35px;
+    line-height: 60px;
+    word-spacing: 4px;
+    letter-spacing: -1px;
+    font-weight: 500;
+    padding: 20px;
+}
+#link{
+    text-decoration: none;
+}
+.checkbtn{
+    font-size:30px;
+}
